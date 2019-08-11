@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+  <html lang="en"> 
+          
+    <head>
+    <meta charset="UTF-8"/>
+      
+       
+       
+    <title>Wild Circus</title>
+      
+     <link href="https://fonts.googleapis.com/css?family=AmaticSC" rel="stylesheet">
+     <link rel="stylesheet" href="circus.css">
+  
+      </head>
+
+  <body>
+    
+    <header>
+      
+      <h1>Wild Circus</h1>
+ 
+    
+      
+    <img class="carrousel" src="https://lh5.ggpht.com/OFBJOpIhJkyF7F2E5WepBNmW-t5jI4-f9gmom9WFmYW4mPX9at7FIhiNNsGX8hho8g=h310" alt="carrousel"/>
+   
+           
+        <nav id="menu">
+           
+       <ul>
+           <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+          
+            <li><a href="#Performances">Performances</a></li>     
+            <li><a href="#AboutUs">AboutUs</a></li>    
+            <li><a href="#Prices">Prices</a></li>   
+            <li><a href="#ContactUs">ContactUs</a></li>
+          
+           
+         
+      </ul>         
+      
+      </nav>
+  
+    </header>    
+      
+    <section id="Performances">    
+      <h2>Performances</h2>
+      <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+      
+       <ul> 
+          <!-- performance 1 -->
+        <li>
+          
+            <h3>Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+        
+         </li>
+        <!-- performance 2 -->
+         <li>
+           <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+
+         </li>
+         <!-- performance 3 -->
+         <li>
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+    </section>
+
+    <hr/>
+<img class="etoiles" src="https://i.pinimg.com/originals/c3/99/cf/c399cf7739191b05c4b87cada897ea9f.gif" alt="étoiles"/>
+    <section id="AboutUs">
+      <h2>About Us</h2>
+      <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+    
+      
+      <p>Created of the year 2000 in San francisco, the Wild Circus had celebrates its nineteen years of existence. We currently have 10 productions worldwide: Las vegas, Paris, Tokyo, Dubaï, Berlin, Sydney, Moscou, Rio, Santiago. 120 people work at the Wild Circus for you offer shows that are always more extraordinary than the others. The team is creative and modern for you to have stars full of eyes.</p>
+        
+        
+          
+     </section>
+     
+    <hr/>
+
+    <section id="Prices">
+      <h2>Prices</h2>
+      <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                         |                                |
+        week-end et mercredi    |         |                         |                                |
+      -->
+      <img class="ticket" src=https://www.royalcanadiancircus.ca/wp-content/uploads/2015/01/ticket_stub.png alt="ticket"/>
+      <img class="clown" src=https://www.icone-gif.com/gif/fetes/cirque/f_cirque16.gif
+ alt="clown"/>
+      
+           
+      <table>
+        <thead>
+          <tr>                 
+           <th>&nbsp;</th>
+           <th>Adults</th>
+           <th>Children under 12 years old</th>
+           <th>Groups (more than 10 persons)</th>
+           <th>Schools</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          
+          <tr>              
+           <th scope="row">Week days except Wednesday</th>
+           <td>$ 12</td>
+           <td>$ 10</td>
+           <td>$ 8</td>
+           <td>$ 6</td>
+          </tr>
+        <tr>
+          <th scope="row">Week-end and Wednesday</th>
+          <td>$ 15</td>
+          <td>$ 13</td>
+          <td>$ 11</td>
+          <td>$ 9</td>
+        </tr>
+       </tbody>
+       </table>
+    </section>
+
+    <hr/>
+
+    <section id="ContactUs">
+      <h2>Contact Us</h2>
+      <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message. Pense bien à ajouter les labels pour les différents champs
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+      -->
+     
+      
+       <form method="post" target="_blank" action="traitement.php">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="form-message">message</label>
+        <textarea id="form-message" rows="4" cols="35" name="message"></textarea><br><br>
+        <input type="submit" value="send">        
+       </form>
+     
+       
+    </section>
+    <footer>
+      <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+      <p>Wild Circus by "Monia Polus".
+      Mon profil:<a href="https://github.com/Monia64/monia" target="_blank">
+        Github</a>
+        Wild Code School:<a href="https://wildcodeschool.fr" target="_blank"> Wild Code School</a>
+        Mon profil:<a href="http://www.france-ioi.org/user/perso.php?sLogin=monia64"
+                      target="_blank"> France IOI</a>       
+                                                                                     Mon profil:<a href="https://www.sololearn.com/Profile/12442329" target="_blank"> SoloLearn</a>
+        - Wild Code School - [20 janvier 2019]</p>
+        
+                 
+        </footer>
+    
+    </body>
+   
+    </html>
